@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "myProject",
-    "slug": "myProject",
+    "name": "september-front",
+    "slug": "september-front",
     "version": "1.0.0",
     "assetBundlePatterns": [
       "**/*"
     ]
   },
-  "name": "myProject"
+  "name": "september-front"
 }
