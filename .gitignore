@@ -1,8 +1,0 @@
-**/bin/*
-**/.expo/*
-**/android/*
-**/ios/*
-**/node_modules/*
-.classpath
-.project
-yarn.lock
