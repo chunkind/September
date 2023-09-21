@@ -1,5 +1,53 @@
 # 프로잭트 생성
 
+## xcode 버전 정보
+```
+https://developer.apple.com/kr/support/xcode/
+```
+
+## 맥 설치
+```
+https://myung-ho.tistory.com/116
+```
+
+## 윈도우 설치
+```
+https://dev-yakuza.posstree.com/ko/react-native/install-on-windows/
+
+-웹팩설치
+npm install -g webpack
+npm install -g webpack-cli
+```
+
+## react native web 셋팅
+```
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## 프로잭트 생성 실행 명령어들
 
 ```
