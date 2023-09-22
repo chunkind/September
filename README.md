@@ -1,5 +1,12 @@
 # 프로잭트 생성
 
+## 실행
+```
+npm run ios (yarn ios) -> ios
+npm run android (yarn android) -> android
+npm run start-react (yarn start-react) -> web
+```
+
 ## xcode 버전 정보
 ```
 https://developer.apple.com/kr/support/xcode/
