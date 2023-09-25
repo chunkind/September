@@ -1,5 +1,5 @@
 import React, {useEffect} from 'react';
-import {View, Text} from 'react-native';
+import Main from './src/com/ck/september/layout/Main';
 import messaging from '@react-native-firebase/messaging';
 
 messaging().setBackgroundMessageHandler(async remoteMessage => {
@@ -22,9 +22,7 @@ const App = () => {
   }, []);
 
   return (
-    <View>
-      <Text> 드디어 완성 g</Text>
-    </View>
+    <Main/>
   );
 }
 export default App;

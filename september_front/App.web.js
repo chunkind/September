@@ -1,11 +1,9 @@
 import React from 'react';
-import {View, Text} from 'react-native';
+import Main from './src/com/ck/september/layout/Main';
 
 function App() {
   return (
-    <View>
-      <Text> 드디어 완성 </Text>
-    </View>
+    <Main/>
   );
 }
 
