@@ -1,4 +1,4 @@
-package com.september_front;
+package com.ck.september;
 
 import android.app.Application;
 import com.facebook.react.PackageList;

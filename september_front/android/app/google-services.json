@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "703975143615",
+    "project_id": "september-e953e",
+    "storage_bucket": "september-e953e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:703975143615:android:9325a8d6de68326261ee0a",
+        "android_client_info": {
+          "package_name": "com.ck.september"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCf3Qq18Va7I03OLI3NekX8dEXdZtJs_0Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

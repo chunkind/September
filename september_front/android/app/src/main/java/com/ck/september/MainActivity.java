@@ -1,4 +1,4 @@
-package com.september_front;
+package com.ck.september;
 
 import com.facebook.react.ReactActivity;
 import com.facebook.react.ReactActivityDelegate;
@@ -13,7 +13,7 @@ public class MainActivity extends ReactActivity {
    */
   @Override
   protected String getMainComponentName() {
-    return "september_front";
+    return "com.ck.september";
   }
 
   /**

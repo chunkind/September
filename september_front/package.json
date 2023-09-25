@@ -1,5 +1,5 @@
 {
-  "name": "september_front",
+  "name": "com.ck.september",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -13,6 +13,8 @@
   },
   "dependencies": {
     "@babel/preset-react": "^7.22.15",
+    "@react-native-firebase/app": "^18.5.0",
+    "@react-native-firebase/messaging": "^18.5.0",
     "html-webpack-plugin": "^5.5.3",
     "react": "18.2.0",
     "react-dom": "^18.2.0",
