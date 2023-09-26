@@ -16,6 +16,18 @@ const babelLoaderConfiguration = {
   }
 };
 
+const fileLoaderConfiguration = {
+  test: /\.(jpg|jpeg|gif|png)$/,
+  use: {
+    loader: 'file-loader',
+    options: {
+      name: '[name].[ext]',
+      publicPath: 'images',
+      outputPath: 'images',
+    }
+  }
+}
+
 module.exports = {
   entry: [
     path.resolve(appDirectory, 'index.web.js')
@@ -28,6 +40,7 @@ module.exports = {
   module: {
     rules: [
       babelLoaderConfiguration,
+      fileLoaderConfiguration
     ]
   },
 

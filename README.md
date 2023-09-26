@@ -33,7 +33,17 @@ npm install -g webpack-cli
 
 ## 페이지 이동시 추가한 라이브러리
 ```
-https://adjh54.tistory.com/202#2)%20Navigation%20%EC%A2%85%EB%A5%98-1
+
+yarn add react-navigation
+yarn add react-native-screens
+yarn add react-native-safe-area-context
+yarn add @react-navigation/native
+yarn add @react-navigation/bottom-tabs
+yarn add @react-navigation/native-stack
+npm install --save-dev file-loader
+yarn add react-native-vector-icons
+
+https://oblador.github.io/react-native-vector-icons/
 ```
 
 

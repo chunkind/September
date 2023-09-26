@@ -5,9 +5,8 @@ import { View, Text } from 'react-native'
 
 function Main() {
   return (
-    <View>
-      <Text>start!</Text>
-      
+    <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <Text>Home!awef</Text>
     </View>
   );
 }
