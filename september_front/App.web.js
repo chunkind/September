@@ -1,10 +1,9 @@
-import * as React from 'react';
-import { StyleSheet } from 'react-native'
-import {NavigationContainer} from '@react-navigation/native';
-import {createNativeStackNavigator} from '@react-navigation/native-stack';
+import React, {Component} from 'react';
+import { NavigationContainer } from '@react-navigation/native';
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-import MainScreen from './src/com/ck/september/layout/Main'
-import LoginScreen from './src/com/ck/september/users/Login'
+import MainScreen from './src/com/ck/september/layout/Main';
+import LoginScreen from './src/com/ck/september/users/Login';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 
 const Stack = createNativeStackNavigator();
@@ -46,23 +45,15 @@ const WholeStack = () =>{
   );
 };
 
-const App = () => {
-  return (
-    <NavigationContainer style={styles}>
-      <WholeStack />
-    </NavigationContainer>
-  );
-};
-
-const styles = StyleSheet.compose({
-  basicPosition: {
-    position: 'static !important',
-    backgroundColor: 'red'
+export default class App extends Component{
+  render (){
+    return (
+      <NavigationContainer>
+        <WholeStack />
+      </NavigationContainer>
+    )
   }
-})
-
-export default App;
-
+}
 
 // const HomeScreen = ({navigation}) => {
 //   return (
