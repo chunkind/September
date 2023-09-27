@@ -33,15 +33,20 @@ npm install -g webpack-cli
 
 ## 페이지 이동시 추가한 라이브러리
 ```
-
+npm install process
 yarn add react-navigation
+yarn add @react-navigation/native
+yarn add @react-navigation/native-stack
+yarn add @react-navigation/bottom-tabs
 yarn add react-native-screens
 yarn add react-native-safe-area-context
-yarn add @react-navigation/native
-yarn add @react-navigation/bottom-tabs
-yarn add @react-navigation/native-stack
 npm install --save-dev file-loader
 yarn add react-native-vector-icons
+
+=> 드로잉 네비게이션
+yarn add @react-navigation/drawer
+yarn add react-native-gesture-handler
+yarn add react-native-reanimated
 
 https://oblador.github.io/react-native-vector-icons/
 ```
