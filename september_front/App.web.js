@@ -37,9 +37,9 @@ const TabNavi = ({navigation}) => {
 
 const WholeStack = () =>{
   return (
-    <Stack.Navigator initialRouteName='TabNavi'>
-      <Stack.Screen name="TabNavi" component={TabNavi} options={{ headerShown: false, animationEnabled: false}} />
+    <Stack.Navigator initialRouteName='Main'>
       <Stack.Screen name="Main" component={MainScreen} options={{ headerShown: false, animationEnabled: false}}/>
+      <Stack.Screen name="TabNavi" component={TabNavi} options={{ headerShown: false, animationEnabled: false}} />
       <Stack.Screen name="Login" component={LoginScreen} options={{ headerShown: false, animationEnabled: false}}/>
     </Stack.Navigator>
   );

@@ -51,9 +51,17 @@ yarn add react-native-reanimated
 https://oblador.github.io/react-native-vector-icons/
 ```
 
+## UI툴
+```
+npm install @react-native-material/core
+```
 
+## 아이콘
+```
+npm install react-native-vector-icons --save
 
-
+https://oblador.github.io/react-native-vector-icons/
+```
 
 
 
